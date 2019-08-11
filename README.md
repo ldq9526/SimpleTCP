@@ -8,7 +8,7 @@ client.cpp 客户端程序入口，包含两个线程：主线程将标准输入
 
 # 编译说明
 使用C++11的 thread mutex 与 unordered_map</br>
-Linux 编译请加入编译选项 -std=c++11</br>
+Linux 编译需要编译选项 -std=c++11, 链接库-pthread</br>
 Windows 建议用VS2015创建工程编译。在“项目属性 -> C/C++ -> 预处理器 -> 预处理器定义”中定义宏WINDOWS</br>
 
 # 使用说明
